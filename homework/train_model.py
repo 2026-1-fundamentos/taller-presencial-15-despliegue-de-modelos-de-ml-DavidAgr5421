@@ -1,8 +1,8 @@
 import pickle
 from pathlib import Path
 
-import pandas as pd
-from sklearn.linear_model import LinearRegression
+import pandas as pd # type: ignore
+from sklearn.linear_model import LinearRegression # type: ignore    
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
